@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08bb4075-2d74-4920-bf5c-533d5d5c5060" name="Default Changelist" comment="" />
+    <list default="true" id="08bb4075-2d74-4920-bf5c-533d5d5c5060" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/themes/pure" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/.idea/flutter_j.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/new.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/scaffolds/draft.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/scaffolds/page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/scaffolds/post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/serve.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/source/_data/links.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/source/_posts/aaaa.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/source/_posts/hello-world.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/source/links/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/themes/pure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/update.sh" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+            <state relative-caret-position="234">
+              <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -26,17 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/pure/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="95" column="7" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../q1_blog/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="195">
+              <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -51,7 +65,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/pure" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,6 +74,13 @@
         <option value="$PROJECT_DIR$/source/_posts/aaaa.md" />
         <option value="$PROJECT_DIR$/source/_data/links.yml" />
         <option value="$PROJECT_DIR$/themes/pure/_config.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/themes/.idea/flutter_j.iml" />
       </list>
     </option>
   </component>
@@ -104,6 +125,21 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="pure" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="flutter_j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_j" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="pure" type="462c0819:PsiDirectoryNode" />
+              <item name="_source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_j" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="pure" type="462c0819:PsiDirectoryNode" />
+              <item name="_source" type="462c0819:PsiDirectoryNode" />
+              <item name="404" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -118,6 +154,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/themes" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -170,14 +211,27 @@
       <option name="project" value="LOCAL" />
       <updated>1594957122325</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit 关闭评论 2">
+      <created>1594957346908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594957346908</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit ok">
+      <created>1594957411329</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594957411329</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1067" height="808" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.3297561" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3297561" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -185,11 +239,11 @@
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32960895" />
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Run" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Find" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -231,7 +285,9 @@
     <MESSAGE value="commit links" />
     <MESSAGE value="commit 关闭评论" />
     <MESSAGE value="commit 关闭评论 a" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 关闭评论 a" />
+    <MESSAGE value="commit 关闭评论 2" />
+    <MESSAGE value="commit ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit ok" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scaffolds/draft.md">
@@ -313,22 +369,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../q1_blog/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="150">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+        <state relative-caret-position="234">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/pure/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="95" column="7" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+        <state relative-caret-position="195">
+          <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
         </state>
       </provider>
     </entry>
