@@ -1,131 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08bb4075-2d74-4920-bf5c-533d5d5c5060" name="Default Changelist" comment="commit ok2">
-      <change beforePath="$PROJECT_DIR$/pure/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/README.cn.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/_config.yml.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/_source/404/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/_source/_data/gallery.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/_source/_data/links.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/_source/about/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/_source/books/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/_source/categories/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/_source/links/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/_source/repository/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/_source/tags/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/languages/default.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/languages/en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/languages/zh-CN.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/languages/zh-TW.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_common/footer.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_common/head.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_common/header.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_common/script.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_common/social.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/archive-book.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/archive-category.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/archive-link.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/archive-list.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/archive-post.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/archive-repository.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/archive-tag.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/archive.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/article-about.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/article.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/item-post.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/pagination.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/category.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/comment.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/copyright.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/date.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/donate.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/gallery.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/nav.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/pv.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/tag.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/thumbnail.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/title.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/post/wordcount.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/sidebar-about.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/sidebar-toc.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_partial/sidebar.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/_analytics/baidu-analytics.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/_analytics/google-analytics.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/_analytics/tencent-analytics.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/_comment/disqus.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/_comment/gitalk.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/_comment/gitment.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/_comment/livere.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/_comment/valine.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/_comment/youyan.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/_search/baidu.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/_search/insight.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/analytics.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/comment.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/douban.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/fancybox.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/mathjax.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/pv.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/repository.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_script/search.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_search/baidu.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_search/index-mobile.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_search/index.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_search/insight.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_search/swiftype.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_widget/archive.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_widget/board.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_widget/category.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_widget/recent_posts.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_widget/tag.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/_widget/tagcloud.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/about.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/archive.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/books.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/categories.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/category.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/index.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/layout.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/links.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/page.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/post.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/repository.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/tag.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/layout/tags.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/screenshot/pure-theme-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/screenshot/pure-theme-blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/screenshot/pure-theme-green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/screenshot/pure-theme-purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/screenshot/pure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/screenshot/pure.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/scripts/thumbnail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/fonts/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/fonts/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/fonts/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/fonts/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/fonts/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/images/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/images/donate/alipayimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/images/donate/wechatpayimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/images/favatar/SzsFox-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/images/favatar/chuangzaoshi-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/images/favatar/idesign-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/images/thumb-default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/images/xingqiu-qrcode.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/js/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/js/application.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/js/insight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/js/plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/js/plugin.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/source/js/plugin.min.js" beforeDir="false" />
+    <list default="true" id="08bb4075-2d74-4920-bf5c-533d5d5c5060" name="Default Changelist" comment="commit remove a b">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/pure/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/_config.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,19 +19,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
+        <entry file="file://$PROJECT_DIR$/serve.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+            <state relative-caret-position="15">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/aaaa.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/pure/_config.yml">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="96" column="35" lean-forward="true" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
+            <state relative-caret-position="75">
+              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -173,16 +61,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/source/_posts/aaaa.md" />
         <option value="$PROJECT_DIR$/source/_data/links.yml" />
         <option value="$PROJECT_DIR$/themes/pure/_config.yml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/themes/.idea/flutter_j.iml" />
+        <option value="$PROJECT_DIR$/source/_posts/aaaa.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -208,13 +90,13 @@
             <path>
               <item name="flutter_j" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_j" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter_j" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_j" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="pure" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +197,28 @@
       <option name="project" value="LOCAL" />
       <updated>1594957592815</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit themes">
+      <created>1594957792627</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594957792627</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit remove a">
+      <created>1594957851134</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594957851134</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit remove a b">
+      <created>1594958253179</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594958253179</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -336,7 +239,7 @@
       <window_info anchor="bottom" id="Debug" />
       <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Find" />
+      <window_info anchor="bottom" id="Find" weight="0.32960895" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Flutter Inspector" />
@@ -380,7 +283,10 @@
     <MESSAGE value="commit ok" />
     <MESSAGE value="commit ok1" />
     <MESSAGE value="commit ok2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit ok2" />
+    <MESSAGE value="commit themes" />
+    <MESSAGE value="commit remove a" />
+    <MESSAGE value="commit remove a b" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit remove a b" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scaffolds/draft.md">
@@ -446,13 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/aaaa.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../q1_blog/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -460,38 +359,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/themes/pure/README.cn.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="165">
+          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/pure/README.cn.md">
+    <entry file="file://$PROJECT_DIR$/themes/pure/languages/default.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="178" column="26" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
+        <state relative-caret-position="-842">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/a">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/pure/_config.yml.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/pure/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/new.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/pure/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="96" column="35" lean-forward="true" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
+        <state relative-caret-position="198">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serve.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/aaaa.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
