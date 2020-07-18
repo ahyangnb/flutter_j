@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08bb4075-2d74-4920-bf5c-533d5d5c5060" name="Default Changelist" comment="commit remove a b">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pure/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/_config.yml" afterDir="false" />
-    </list>
+    <list default="true" id="08bb4075-2d74-4920-bf5c-533d5d5c5060" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +82,11 @@
             <path>
               <item name="flutter_j" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_j" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter_j" type="b2602c69:ProjectViewProjectNode" />
@@ -218,14 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594958253179</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit update">
+      <created>1594958337458</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594958337459</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1067" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3297561" />
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.3297561" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -237,7 +245,7 @@
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Run" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Find" weight="0.32960895" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -286,7 +294,8 @@
     <MESSAGE value="commit themes" />
     <MESSAGE value="commit remove a" />
     <MESSAGE value="commit remove a b" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit remove a b" />
+    <MESSAGE value="commit update" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scaffolds/draft.md">
