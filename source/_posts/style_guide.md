@@ -11,4 +11,8 @@ toc: true
 ### 避免重复状态
 ### Getters比方法感觉更快
 
+
+
+更新中...
+
 原文地址：https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo
