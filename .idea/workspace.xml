@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08bb4075-2d74-4920-bf5c-533d5d5c5060" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/flutter_use_webview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/flutter_use_webview.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/flutter_use_webview.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +36,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_posts/flutter_use_webview.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="335">
+              <caret line="141" column="10" lean-forward="true" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594958337459</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit update 1">
+      <created>1595935164788</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595935164788</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -237,7 +246,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.34243903" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.34243903" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -247,7 +256,7 @@
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32960895" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32960895" />
@@ -312,7 +321,8 @@
     <MESSAGE value="commit remove a" />
     <MESSAGE value="commit remove a b" />
     <MESSAGE value="commit update" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit update" />
+    <MESSAGE value="commit update 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit update 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../q1_blog/source/_posts/轻量便捷路由管理方案NavRouter.md">
@@ -560,8 +570,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/flutter_use_webview.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="335">
+          <caret line="141" column="10" lean-forward="true" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
