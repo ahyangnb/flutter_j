@@ -17,16 +17,21 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>归档: 2020/7 | Flutter教程网 - 最专业，最全面的Flutter实用项目代码及教程网站</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2020/07/index.html">
+  <title>flutter中使用webview-解决依赖问题 | Flutter教程网 - 最专业，最全面的Flutter实用项目代码及教程网站</title>
+  <meta name="description" content="为什么要发这篇文章呢，因为小编创建项目的时候发现了哥问题，是在test目录的一个 1import &#39;package:flutter_webview_plugin&#x2F;flutter_webview_plugin.dart&#39;; 导入失败问题， 改了很多地方都没解决，最终发现在依赖里面，这个是调用第三方插件所以要在依赖那边设置。 然后pakeages get,才行 首先要安装一个插件：* flutter_">
+<meta property="og:type" content="article">
+<meta property="og:title" content="flutter中使用webview-解决依赖问题">
+<meta property="og:url" content="http://yoursite.com/2019/01/10/flutter_use_webview/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="为什么要发这篇文章呢，因为小编创建项目的时候发现了哥问题，是在test目录的一个 1import &#39;package:flutter_webview_plugin&#x2F;flutter_webview_plugin.dart&#39;; 导入失败问题， 改了很多地方都没解决，最终发现在依赖里面，这个是调用第三方插件所以要在依赖那边设置。 然后pakeages get,才行 首先要安装一个插件：* flutter_">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-01-10T07:31:38.000Z">
+<meta property="article:modified_time" content="2020-07-28T11:19:15.631Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="flutter问题">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://yoursite.com/archives/2020/07/index.html">
+  <link rel="canonical" href="http://yoursite.com/2019/01/10/flutter_use_webview/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -326,59 +331,139 @@
 
   
   
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <nav id="toc" class="article-toc">
+      <h3 class="toc-title">文章目录</h3>
+      
+    </nav>
+  </div>
+</aside>
+
 <main class="main" role="main">
-  	<article class="content article article-archives article-type-list" itemscope="">
-	    <header class="article-header">
-	      <h1 itemprop="title">归档: 2020/7</h1>
-	      <p class="text-muted">共 2 篇文章</p>
-	    </header>
-	    <div class="article-body">
-	      
-  
-  
+  <div class="content">
+  <article id="post-flutter_use_webview" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
-    
+    <div class="article-header">
       
+        
+  
+    <h1 class="article-title" itemprop="name">
+      flutter中使用webview-解决依赖问题
+    </h1>
+  
+
       
-      <section class="panel panel-default b-no">
-        <div class="panel-heading" role="tab">
-          <h3 class="panel-title">
-            <a data-toggle="collapse" href="#collapse2020" aria-expanded="true">
-              <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
-              2020
-            </a>
-            <!-- <a href="/archives/2020" class="archive-year">2020</a> -->
-          </h3>
-        </div>
-        <div id="collapse2020" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2020">
-        <div class="panel-body">
-          <div class="collection">
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2019/01/10/flutter_use_webview/" class="article-date">
+	  <time datetime="2019-01-10T07:31:38.000Z" itemprop="datePublished">2019-01-10</time>
+	</a>
+</span>
+        
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/flutter%E9%97%AE%E9%A2%98/">flutter问题</a>
+  </span>
+
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/flutter%E9%97%AE%E9%A2%98/" rel="tag">flutter问题</a>
+  </span>
+
+
+        
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/01/10/flutter_use_webview/#comments" class="article-comment-link">评论</a></span>
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      
+        <p>为什么要发这篇文章呢，因为小编创建项目的时候发现了哥问题，是在test目录的一个</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'package:flutter_webview_plugin/flutter_webview_plugin.dart'</span>;</span><br></pre></td></tr></table></figure>
+<p>导入失败问题，</p>
+<p>改了很多地方都没解决，最终发现在依赖里面，这个是调用第三方插件所以要在依赖那边设置。</p>
+<p>然后pakeages get,才行</p>
+<p>首先要安装一个插件：<strong>* flutter_webview_plugin *</strong></p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">dependencies: flutter_webview_plugin:</span> <span class="string">^0.2.1+2</span></span><br></pre></td></tr></table></figure>
+
+<p>使用方法：</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">new</span> MaterialApp(</span><br><span class="line">      routes: &#123;</span><br><span class="line">        <span class="string">"/"</span>: (_) =&gt; <span class="keyword">new</span> WebviewScaffold(</span><br><span class="line">              url: <span class="string">"https://www.google.com"</span>,</span><br><span class="line">              appBar: <span class="keyword">new</span> AppBar(</span><br><span class="line">                title: <span class="keyword">new</span> Text(<span class="string">"Widget webview"</span>),</span><br><span class="line">              ),</span><br><span class="line">            )</span><br><span class="line">      &#125;,</span><br><span class="line">    );</span><br></pre></td></tr></table></figure>
+<p><code>FlutterWebviewPlugin</code> 插件提供一个链接到唯一webview的单一实例，这样你就可以在app中的任何地方控制webview，比如监听事件：</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">final</span> flutterWebviewPlugin = <span class="keyword">new</span> FlutterWebviewPlugin();</span><br><span class="line"><span class="comment">//  监听url地址改变事件</span></span><br><span class="line">flutterWebviewPlugin.onUrlChanged.listen((<span class="built_in">String</span> url) &#123;</span><br><span class="line">  </span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//  监听页面滚动事件</span></span><br><span class="line"><span class="keyword">final</span> flutterWebviewPlugin = <span class="keyword">new</span> FlutterWebviewPlugin();</span><br><span class="line">flutterWebviewPlugin.onScrollYChanged.listen((<span class="built_in">double</span> offsetY) &#123; </span><br><span class="line">  </span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">flutterWebviewPlugin.onScrollXChanged.listen((<span class="built_in">double</span> offsetX) &#123; </span><br><span class="line"> </span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<p>隐藏webview：</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">final</span> flutterWebviewPlugin = <span class="keyword">new</span> FlutterWebviewPlugin();  </span><br><span class="line"></span><br><span class="line">flutterWebviewPlugin.launch(url, hidden: <span class="keyword">true</span>);</span><br></pre></td></tr></table></figure>
+<p>关闭webview：</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">flutterWebviewPlugin.close();</span><br></pre></td></tr></table></figure>
+
+<p>画一个内部矩形webview：</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">final</span> flutterWebviewPlugin = <span class="keyword">new</span> FlutterWebviewPlugin();  </span><br><span class="line"></span><br><span class="line">flutterWebviewPlugin.launch(url,</span><br><span class="line">                  fullScreen: <span class="keyword">false</span>,</span><br><span class="line">                  rect: <span class="keyword">new</span> Rect.fromLTWH(</span><br><span class="line">                      <span class="number">0.0</span>, </span><br><span class="line">                      <span class="number">0.0</span>, </span><br><span class="line">                      MediaQuery.of(context).size.width, </span><br><span class="line">                      <span class="number">300.0</span>));</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
     
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="http://yoursite.com/2019/01/10/flutter_use_webview/" title="flutter中使用webview-解决依赖问题" target="_blank" rel="external">http://yoursite.com/2019/01/10/flutter_use_webview/</a>
+    </li>
     
-<a href="/2020/07/17/style_guide/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2020-07-17T08:54:40.109Z" itemprop="datePublished">2020-07-17</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Flutter贡献者代码风格规范
-</a>
+  </ul>
+</blockquote>
+    </div>
+  </article>
+  
+    
+  <section id="comments">
+  	
+  </section>
 
 
   
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    <li class="prev">
+      <a href="/2020/04/18/aaaa/" title="OKOKO"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+    </li>
     
     
     
-<a href="/2020/07/17/hello-world/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2020-07-17T02:33:03.912Z" itemprop="datePublished">2020-07-17</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Hello World
-</a>
-
-
+    <li class="toggle-toc">
+      <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button">
+        <span>[&nbsp;</span><span>文章目录</span>
+        <i class="text-collapsed icon icon-anchor"></i>
+        <i class="text-in icon icon-close"></i>
+        <span>]</span>
+      </a>
+    </li>
+    
+  </ul>
   
   
-    </div></div></div></section>
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
   
 
-	    </div>
-  	</article>
-  	 	
+
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
@@ -440,6 +525,12 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+   
+
+
+
+
+   
 
 
 
