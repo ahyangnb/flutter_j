@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08bb4075-2d74-4920-bf5c-533d5d5c5060" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/source/_posts/flutter_use_webview.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/flutter_use_webview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/flutter_web_one.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,20 +27,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/style_guide.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="105">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/flutter_use_webview.md">
+        <entry file="file://$PROJECT_DIR$/source/_posts/flutter_web_one.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="141" column="10" lean-forward="true" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -71,6 +68,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/themes/pure/layout/_partial/post/copyright.ejs" />
         <option value="$PROJECT_DIR$/source/_posts/flutter_use_webview.md" />
+        <option value="$PROJECT_DIR$/source/_posts/flutter_web_one.md" />
       </list>
     </option>
   </component>
@@ -238,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595935164788</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit update WebviewScaffold">
+      <created>1595935345817</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595935345817</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -246,7 +251,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.34243903" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.34243903" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -256,7 +261,7 @@
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32960895" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32960895" />
@@ -322,7 +327,8 @@
     <MESSAGE value="commit remove a b" />
     <MESSAGE value="commit update" />
     <MESSAGE value="commit update 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit update 1" />
+    <MESSAGE value="commit update WebviewScaffold" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit update WebviewScaffold" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../q1_blog/source/_posts/轻量便捷路由管理方案NavRouter.md">
@@ -551,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/style_guide.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/hello-world.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -568,13 +567,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/style_guide.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/flutter_use_webview.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="141" column="10" lean-forward="true" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/flutter_web_one.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
