@@ -83,3 +83,67 @@ flutterWebviewPlugin.launch(url,
                       MediaQuery.of(context).size.width, 
                       300.0));
 ```
+
+注意：webview并不存在于widget树中，所以你不能在webview中使用如snackbars, dialogs ...这些通知交互widget，更详细一些使用方法可以点击这里；
+
+最后，这是一个使用例子
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
+
+class WebViewExample extends StatefulWidget {
+  @override
+  _WebViewExampleState createState() => _WebViewExampleState();
+}
+
+class _WebViewExampleState extends State<WebViewExample> {
+  TextEditingController controller = TextEditingController();
+  FlutterWebviewPlugin flutterWebviewPlugin = FlutterWebviewPlugin();
+  var urlString = "https://google.com";
+
+  launchUrl() {
+    setState(() {
+      urlString = controller.text;
+      flutterWebviewPlugin.reloadUrl(urlString);
+    });
+  }
+
+  @override
+  void initState() {
+    super.initState();
+
+    flutterWebviewPlugin.onStateChanged.listen((WebViewStateChanged wvs) {
+      print(wvs.type);
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return WebviewScaffold(
+      appBar: AppBar(
+        title: TextField(
+          autofocus: false,
+          controller: controller,
+          textInputAction: TextInputAction.go,
+          onSubmitted: (url) => launchUrl(),
+          style: TextStyle(color: Colors.white),
+          decoration: InputDecoration(
+            border: InputBorder.none,
+            hintText: "Enter Url Here",
+            hintStyle: TextStyle(color: Colors.white),
+          ),
+        ),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.navigate_next),
+            onPressed: () => launchUrl(),
+          )
+        ],
+      ),
+      url: urlString,
+      withZoom: false,
+    );
+  }
+}
+```
